@@ -1,6 +1,6 @@
 FROM quay.io/projectquay/golang:1.17
 
-ADD src/hello-world.go hello-world.go
+ADD hello-world.go hello-world.go
 
 ENV MESSAGE "Welcome! You can change this message by replacing the MESSAGE environment variable."
 ENV HOME /go
